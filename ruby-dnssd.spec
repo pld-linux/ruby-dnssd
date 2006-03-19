@@ -12,7 +12,7 @@ Source0:	http://rubyforge.org/frs/download.php/1656/%{tarname}-%{tarversion}.tar
 Patch0:		%{name}-libname.patch
 URL:		http://dnssd.rubyforge.org/
 BuildRequires:	rpmbuild(macros) >= 1.277
-BuildRequires:	mDNSResponder-devel
+BuildRequires:	mdns-bonjour-devel
 BuildRequires:	ruby-modules
 BuildRequires:	setup.rb = 3.3.1
 %{?ruby_mod_ver_requires_eq}
