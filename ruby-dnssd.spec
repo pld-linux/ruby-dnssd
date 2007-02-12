@@ -1,7 +1,7 @@
 %define tarname dnssd
 %define tarversion 0_6_0
 Summary:	DNS Service Discovery module for Ruby
-Summary(pl.UTF-8):   Moduł DNS Service Discovery dla języka Ruby
+Summary(pl.UTF-8):	Moduł DNS Service Discovery dla języka Ruby
 Name:		ruby-dnssd
 Version:	0.6.0
 Release:	1
