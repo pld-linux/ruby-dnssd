@@ -14,7 +14,7 @@ URL:		http://dnssd.rubyforge.org/
 BuildRequires:	mdns-bonjour-devel
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-modules
-BuildRequires:	setup.rb = 3.3.1
+BuildRequires:	setup.rb >= 3.3.1
 %{?ruby_mod_ver_requires_eq}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
