@@ -30,7 +30,7 @@ Rendezvous).
 %prep
 %setup -q -n %{tarname}-%{tarversion}
 cp %{_datadir}/setup.rb .
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 ruby setup.rb config \
